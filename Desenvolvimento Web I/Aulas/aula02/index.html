@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse site os tipos de textos (h1 ate 6) e paragrafos">
+    <meta name="keywords" content="html,css,js">
+    <meta name="author" content="Murilo Reis">
+    <title>Titulo e Parágrafo</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+
+        #tituloprincipal {
+            color: chocolate;
+            text-align: center;
+            font-size: 200%;
+         }  
+        #titulos {
+            text-align: center;
+            color: brown;
+        }
+
+        #paragrafo {
+            text-align: center;
+            color: red;
+            
+        }
+
+        img {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <h1 id="tituloprincipal">📑 Títulos e Paragrafos:</h1>
+            <hr>
+        </section>
+    </header>
+    <main>
+        <section>  
+            <div id="titulos">
+            <h1>Este texto é um H1!</h1>
+            <h2>Este texto é um H2!</h2>
+            <h3>Este texto é um H3!</h3>
+            <h4>Este texto é um H4!</h4>
+            <h5>Este texto é um H5!</h5>
+            <h6>Este texto é um H6</h6>
+            </div>
+        </section>
+        <section>
+            <div id="paragrafo">
+                <p>Este texto é um paragrafo!</p>
+            </div>
+            <figure>
+                <img src="img/livro.jpg" alt="imagem de livro aberto">
+                <img src="img/livro2.jpg" alt="imagem de livro aberto">
+            </figure>
+        </section>
+        <section>
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                  <div class="vw-plugin-top-wrapper"></div>
+                </div>
+              </div>
+              <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+              <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+              </script>
+        </section>  
+    </main>
+</body>
+</html>
